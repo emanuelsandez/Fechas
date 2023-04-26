@@ -23,7 +23,7 @@ public class Fechas {
 				System.out.println("Ingrese la primera fecha, con formato DD/MM/AAAA");
 				fecha1=tecla.next();
 				largoFecha1 = fecha1.length();
-				tecla.close();
+				//tecla.close();
 			if( largoFecha1 != 10) {				// Validación de formato fecha 1
 				System.out.println("Fecha con formato incorrecto, favor ingresar nuevamente con el formato solicitado");
 			}		
